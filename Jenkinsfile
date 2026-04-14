@@ -51,7 +51,7 @@ pipeline {
         stage('Success') {
             steps {
                 echo "✅ Deployment completed successfully!"
-                echo "🌐 Open browser: http://localhost:8080"
+                echo "🌐 Open browser: http://localhost:8090"
             }
         }
     }
